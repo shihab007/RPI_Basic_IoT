@@ -18,10 +18,10 @@ def redLed():
     GPIO.output(ledR, False)
 
 def blueLed():
-    GPIO.output(ledB, True)
+    GPIO.output(ledB, False)
 
 def greenLed():
-    GPIO.output(ledG, True)
+    GPIO.output(ledG, False)
 
 # make_server is used to create this simple python webserver
 from wsgiref.simple_server import make_server
